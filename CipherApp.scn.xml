@@ -1,0 +1,359 @@
+<TaskerData sr="" dvi="1" tv="6.0.10">
+	<dmetric>540.0,1074.0</dmetric>
+	<Scene sr="sceneCipherApp">
+		<cdate>1663579325585</cdate>
+		<edate>1663589649087</edate>
+		<gridSize>15</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>1140</heightPort>
+		<nme>CipherApp</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>540</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>16,332,506,164,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">InputBG</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#88FFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">#4C00FF00</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>16,674,505,149,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">OutputBG</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#88FFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">#4C00FF00</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<EditTextElement sr="elements2" ve="3">
+			<focuschangeTask>36</focuschangeTask>
+			<geom>46,376,439,90,-1,-1,-1,-1</geom>
+			<valueselectedTask>35</valueselectedTask>
+			<Str sr="arg0" ve="3">decrypt_edit</Str>
+			<Str sr="arg1" ve="3">qwerty</Str>
+			<Int sr="arg2" val="24"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF330000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#99333333</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FFFF0000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<EditTextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<focuschangeTask>25</focuschangeTask>
+			<geom>46,376,439,90,-1,-1,-1,-1</geom>
+			<valueselectedTask>24</valueselectedTask>
+			<Str sr="arg0" ve="3">encrypt_edit</Str>
+			<Str sr="arg1" ve="3">abcdef</Str>
+			<Int sr="arg2" val="24"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF003300</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#99333333</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FF2EFF00</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<TextElement sr="elements4" ve="3">
+			<geom>46,703,439,90,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Decrypted</Str>
+			<Str sr="arg1" ve="3">%Decrypted</Str>
+			<Int sr="arg2" val="24"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF440000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#99333333</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FFFFFFFF</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>46,703,439,90,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Encrypted</Str>
+			<Str sr="arg1" ve="3">%Encrypted</Str>
+			<Int sr="arg2" val="24"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF058900</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#99333333</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FFFFFFFF</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<ToggleElement sr="elements6">
+			<checkchangeTask>39</checkchangeTask>
+			<flags>4</flags>
+			<geom>16,213,505,105,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">cipher_toggle</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">Decrypt</Str>
+			<Str sr="arg3" ve="3">Encrypt</Str>
+			<Int sr="arg4" val="20"/>
+			<Int sr="arg5" val="100"/>
+			<Str sr="arg6" ve="3">#FFFFFFFF</Str>
+		</ToggleElement>
+		<ButtonElement sr="elements7" ve="3">
+			<clickTask>26</clickTask>
+			<flags>4</flags>
+			<geom>320,985,219,98,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Copy</Str>
+			<Str sr="arg1" ve="3">Copy</Str>
+			<Int sr="arg2" val="24"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements8" ve="3">
+			<clickTask>27</clickTask>
+			<flags>4</flags>
+			<geom>0,985,219,98,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Clear</Str>
+			<Str sr="arg1" ve="3">Clear</Str>
+			<Int sr="arg2" val="24"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF7A7A</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<itemselectedTask>28</itemselectedTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">QWERTY-Crypt</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<ListElementItem sr="item0">
+				<label>Exit</label>
+				<Action sr="action" ve="7">
+					<code>49</code>
+					<Str sr="arg0" ve="3">CipherApp</Str>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_navigation_close</nme>
+				</Img>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task24">
+		<cdate>1663582665436</cdate>
+		<edate>1663582665436</edate>
+		<id>24</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">abc2qwe.input</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task25">
+		<cdate>1663583071392</cdate>
+		<edate>1663583071392</edate>
+		<id>25</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">CipherApp</Str>
+			<Str sr="arg1" ve="3">encrypt_edit</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task26">
+		<cdate>1663583275283</cdate>
+		<edate>1663583275283</edate>
+		<id>26</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>105</code>
+			<Str sr="arg0" ve="3">%Clipboarder</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task27">
+		<cdate>1663583275283</cdate>
+		<edate>1663583275283</edate>
+		<id>27</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task28">
+		<cdate>1663583779323</cdate>
+		<edate>1663583779323</edate>
+		<id>28</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">DeCipher</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">CipherApp</Str>
+		</Action>
+	</Task>
+	<Task sr="task35">
+		<cdate>1663582665436</cdate>
+		<edate>1663582665436</edate>
+		<id>35</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">qwe2abc.input</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task36">
+		<cdate>1663583071392</cdate>
+		<edate>1663583071392</edate>
+		<id>36</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">CipherApp</Str>
+			<Str sr="arg1" ve="3">decrypt_edit</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task39">
+		<cdate>1663587660848</cdate>
+		<edate>1663587660848</edate>
+		<id>39</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">CipherApp</Str>
+			<Str sr="arg1" ve="3">Encrypted</Str>
+			<Int sr="arg2" val="2"/>
+			<Int sr="arg3" val="400"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">CipherApp</Str>
+			<Str sr="arg1" ve="3">Decrypted</Str>
+			<Int sr="arg2" val="2"/>
+			<Int sr="arg3" val="400"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">CipherApp</Str>
+			<Str sr="arg1" ve="3">encrypt_edit</Str>
+			<Int sr="arg2" val="2"/>
+			<Int sr="arg3" val="400"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">CipherApp</Str>
+			<Str sr="arg1" ve="3">decrypt_edit</Str>
+			<Int sr="arg2" val="2"/>
+			<Int sr="arg3" val="400"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
