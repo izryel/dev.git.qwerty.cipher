@@ -1,0 +1,87 @@
+<TaskerData sr="" dvi="1" tv="6.0.10">
+	<Task sr="task19">
+		<cdate>1663579700545</cdate>
+		<edate>1663589899963</edate>
+		<id>19</id>
+		<nme>Cipher</nme>
+		<pri>100</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%Encrypted,%Decrypted</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">qwerty,abcdef</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>194</code>
+			<Str sr="arg0" ve="3">CipherApp</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%cipher_status</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%cipher_status</lhs>
+					<op>2</op>
+					<rhs>uncreated</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>46</code>
+			<Str sr="arg0" ve="3">CipherApp</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%cipher_status</lhs>
+					<op>2</op>
+					<rhs>hidden</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">CipherApp</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="4"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+</TaskerData>
